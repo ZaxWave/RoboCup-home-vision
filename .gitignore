@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+*.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training output and checkpoints
+runs/
+**/train/exp*/
+robocuphome_yolo/train/exp/
+results/
+weights/
+*.pt
+*.onnx
+*.t7
+*.ckpt
+*.h5
+*.pth
+
+yolo/
+
+# Cache
+.cache/
